@@ -3,7 +3,6 @@
 /build/
 /npm-debug.log
 /docker-compose.yml
-/*.env
 /data
 *pagurbate
 *backbone_table_view
