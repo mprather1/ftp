@@ -1,1 +1,1 @@
-docker run -e FTP_HOST=$1 -e FTP_DIR=$2 -e FTP_PORT=21 -e FTP_USER=$3 -e FTP_PASS=$4 --name=ftp $5
+docker run -e FTP_HOST=$1 -e FTP_DIR=$2 -e FTP_PORT=21 -e FTP_USER=$3 -e FTP_PASS=$4 PORT=$5 --name=ftp $6
